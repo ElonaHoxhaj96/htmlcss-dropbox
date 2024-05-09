@@ -46,3 +46,95 @@ button{
     border-color: transparent;
     padding: 5px 10px;
 }
+
+/*IMPOSTAZIONE DEL MAIN*/
+
+main{
+  
+  
+}
+
+section{
+    margin: auto;
+    width: 70%;
+
+
+    /*DEBUG*/
+    height: 300px;
+    background-color: red;
+    border: 3px solid black;
+}
+
+
+
+/*IMPOSTAZIONE DEL HEDER*/
+
+header{
+    height: 100vh;
+    width: 100vw;
+
+}
+
+#bg-coloro-jambo{
+    background-color: rgba(82, 152, 205, 0.5);
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+#contenitorejb{
+    width: 80%;
+   
+
+}
+
+/*titolo header*/
+h1{
+    font-size: 60px;
+    font-weight: 900;
+  
+}
+
+
+/*settin contenuto testo e immagine jambo*/
+#jumbo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 20px;
+    justify-content: center;
+    height: 400px;
+
+    /*DEBUG
+    background-color: aqua;*/
+ 
+}
+
+.jb {
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+   
+}
+
+
+.arrow{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+
+.jb > img{
+    width: 800px;
+
+}
