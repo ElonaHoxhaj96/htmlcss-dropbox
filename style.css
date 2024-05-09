@@ -51,7 +51,7 @@ button{
 /*IMPOSTAZIONE DEL HEDER*/
 
 header{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
  
 
@@ -115,7 +115,8 @@ h1{
 }
 
 .jb-right{
-    justify-content: flex-end;
+    display: inline;
+    
 
 }
 
