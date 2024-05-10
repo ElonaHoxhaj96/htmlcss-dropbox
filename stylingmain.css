@@ -44,6 +44,8 @@ h2{
     border: solid 3px blue;
 }
 
+
+
 /*colonne con la scelta piano*/
 
 #contenitor-col{
@@ -75,10 +77,15 @@ h2{
 ul{
   list-style-type: none;
   padding: 30px 40px;
+  
+}
+
+h3{
+    font-size: 25px;
 }
 
 
-/*caratteristiche degli elementi di ul*/ 
+/*caratteristiche degli elementi di "ul" nella sezione Scegli il tuo piano*/ 
 li > span{
     display: block;
     margin-bottom: 20px;
@@ -115,6 +122,8 @@ li > span{
 
 li > button {
     margin-bottom: 30px;
+    width: 100%;
+
 }
 
 hr{
@@ -126,6 +135,19 @@ hr{
 .p-salienti{   
     margin: 20px 0 50px 0;
     font-weight: bold;
+
+}
+
+
+i{ 
+    float: left;
+    padding: 5px 5px 5px 0px;
+
+
+}
+
+.check-blu{
+    color: blue;
 
 }
 
