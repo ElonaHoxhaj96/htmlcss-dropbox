@@ -66,7 +66,7 @@ h2{
     border-bottom: solid 1px;
     border-color: rgb(145, 145, 146);
     display: flex;
-    padding: 10px 40px;
+    padding: 5px 40px;
     justify-content: center;
 }
 
@@ -74,7 +74,7 @@ h2{
 
 ul{
   list-style-type: none;
-  padding: 5px 40px;
+  padding: 30px 40px;
 }
 
 
