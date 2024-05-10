@@ -8,6 +8,7 @@ main{
 }
 
 section{
+    width: 100%;
     /*DEBUG*/
     min-height: 1500px;
    
@@ -54,10 +55,13 @@ h2{
     flex-direction: row;
     align-items: stretch;
     justify-content: flex-start;
+    gap: 30px
+    ;
 }
 
 
 .col{
+    width: calc(100%/ 3);
     border: solid 1px;
     border-color: rgb(145, 145, 146);
 
