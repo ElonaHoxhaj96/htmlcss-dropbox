@@ -10,7 +10,7 @@ main{
 section{
     /*DEBUG*/
     min-height: 1500px;
-    border: 3px solid black;
+   
 }
 
 
@@ -56,16 +56,18 @@ h2{
 
 
 .col{
-    border: solid;
+    border: solid 1px;
     border-color: rgb(145, 145, 146);
 
 }
 
 .col > h4{
     width: 100%;
-    border-bottom: solid;
+    border-bottom: solid 1px;
     border-color: rgb(145, 145, 146);
-    padding: 5px 40px;
+    display: flex;
+    padding: 10px 40px;
+    justify-content: center;
 }
 
 
@@ -77,5 +79,53 @@ ul{
 
 
 /*caratteristiche degli elementi di ul*/ 
+li > span{
+    display: block;
+    margin-bottom: 20px;
+}
 
+.type{
+    margin: 25px 0px;
+
+}
+
+.prezzo {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.durata{
+    margin: 5px 0;
+    color: rgb(149, 154, 160);
+}
+
+.utenti{
+    margin: 40px 0 10px 0;
+}
+
+.spazio-archivio{
+    margin: 20px 0
+
+}
+
+.condivisione{
+    margin: 20px 0 50px 0;
+
+}
+
+li > button {
+    margin-bottom: 30px;
+}
+
+hr{
+    margin: 50px 0;
+    border-color: rgba(194, 194, 194, 0.308);
+    width: 60px;
+}
+
+.p-salienti{   
+    margin: 20px 0 50px 0;
+    font-weight: bold;
+
+}
 
