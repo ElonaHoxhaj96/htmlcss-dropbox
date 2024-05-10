@@ -10,6 +10,34 @@ main{
 section{
     /*DEBUG*/
     height: 300px;
-    background-color: red;
+   
     border: 3px solid black;
 }
+
+
+/*SETTING PRIMA SEZIONE : Scelta del piano*/
+h2{
+    margin-bottom: 40px;
+
+
+}
+
+#bottonicircolari{
+    display: flex;
+    gap: 20px;
+   
+}
+
+#bottonicircolari > div{
+    display: flex;
+    gap: 10px;
+}
+
+
+.circle{
+    background-color: white;
+    border-radius: 60px;
+    padding: 10px 10px;
+    border-color: rgb(145, 145, 146);     
+}
+
