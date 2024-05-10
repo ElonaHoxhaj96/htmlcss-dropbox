@@ -1,0 +1,15 @@
+/*IMPOSTAZIONE DEL MAIN*/
+
+main{
+    margin: 50px auto;
+    width: 70%;
+  
+  
+}
+
+section{
+    /*DEBUG*/
+    height: 300px;
+    background-color: red;
+    border: 3px solid black;
+}
