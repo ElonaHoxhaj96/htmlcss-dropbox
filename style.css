@@ -76,7 +76,6 @@ header{
     align-items: center;
     justify-content: center;
 
-
 }
 
 
@@ -101,6 +100,7 @@ h1{
     align-items: center;
     line-height: 20px;
     justify-content: center;
+    flex-wrap: nowrap;
 
     /*DEBUG
     background-color: aqua;*/
