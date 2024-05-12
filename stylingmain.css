@@ -1,14 +1,14 @@
 /*IMPOSTAZIONE DEL MAIN*/
 
 main{
-    margin: 100px auto;
+    margin: 0px auto;
     width: 70%;
   
 }
 
 
 section{
-    margin: 200px 0;
+    margin: 150px 0;
     width: 100%;
     /*DEBUG*/
   
@@ -406,6 +406,17 @@ article{
     margin: 100px auto;
     width: 70%;
 
+}
+
+.question{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.question > .fa-angle-down{
+    padding-right: 30px;
 }
 
 

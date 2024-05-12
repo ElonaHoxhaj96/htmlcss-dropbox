@@ -62,7 +62,7 @@ button{
 
 header{
     width: 100%;
-    height: calc(100vh- 70px);
+    height: 100vh;
 }
 
 #bg-coloro-jambo{
@@ -79,7 +79,8 @@ header{
 
 
 #contenitorejb{
-    width: 80%;    
+    width: 80%;   
+    min-height: 600px; 
 
 }
 
