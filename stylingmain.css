@@ -223,7 +223,7 @@ i{
 
 .col-operaz-drx{
     width: calc((100%/ 3) - 40px);
-    margin: 20px;
+    margin: 30px 40px 30px 0;
 
 }
 
@@ -234,4 +234,15 @@ i{
 
 .img-business{
     width: 300px;
+}
+
+
+
+
+/*IMPOSTAZIONI DELLA TERZA SEZIONE 
+4) Numero di clienti e Scopri di più */
+
+
+#nr-clienti{
+    width: 40%;
 }
