@@ -9,8 +9,9 @@ main{
 
 section{
     width: 100%;
+    margin: 150px 0;
     /*DEBUG*/
-    min-height: 1500px;
+    min-height: 1000px;
    
 }
 
@@ -161,7 +162,6 @@ i{
 
 
 
-
 /*setting la riga sotto le tre colonne*/ 
 
 #riga{
@@ -183,3 +183,27 @@ i{
     width: 70%;
 }
 
+
+/*IMPOSTAZIONI DELLA SECONDA SEZIONE 
+2) Entra In contatto con partner Dropbox */
+
+#partner-img{
+    width: 650px;
+    float: left;
+    margin-right: 30px;
+}
+
+.bt-bianco{
+    background-color: white;
+    color: grey;
+    border-color: rgb(172, 171, 171);
+}
+
+#sec2-text{
+    padding-top: 30px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 30px;
+}
