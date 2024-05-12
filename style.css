@@ -49,6 +49,7 @@ button{
     border-color: transparent;
     padding: 10px;
     width: auto;
+    cursor:pointer;
 }
 
 .destro >button{

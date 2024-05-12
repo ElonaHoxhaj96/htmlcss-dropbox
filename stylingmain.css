@@ -252,10 +252,14 @@ i{
 
 /*IMPOSTAZIONI DELLA TERZA SEZIONE 
 5) Scroll immagini */
+article{
+    background-color: rgb(151 202 226);
+    height: auto;
+}
 
 #scroll-img{
     width: 100%;
-
+    margin: 30px 0;
 }
 
 
@@ -357,8 +361,6 @@ i{
 
 
 
-
-
 /*grid destra*/ 
 #bicycle{
     background-color: orangered;
@@ -378,3 +380,38 @@ i{
 #clear-channel{
     background-color: yellow;
 }
+
+#bottom-of-scroll{
+    margin: 0px auto;
+    width: 70%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+#bottom-of-scroll > h2{
+    color: #700f0f;
+    width: 50%;
+}
+
+
+#bottom-of-scroll > button{
+    border-color: transparent;
+}
+
+
+/*Domande Frequenti  */
+
+#domande{
+    margin: 100px auto;
+    width: 70%;
+
+}
+
+
+
+
+
+
+
+
