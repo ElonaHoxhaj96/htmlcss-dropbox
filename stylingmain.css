@@ -69,7 +69,7 @@ h2{
 
 }
 
-h4{
+main h4{
     width: 100%;
     border-bottom: solid 1px;
     border-color: rgb(145, 145, 146);
@@ -399,7 +399,8 @@ article{
 }
 
 
-/*Domande Frequenti  */
+/* IMPOSTAZIONI FOOTER 
+6)Domande Frequenti  */
 
 #domande{
     margin: 100px auto;
@@ -418,6 +419,71 @@ article{
     padding-right: 30px;
 }
 
+
+/*FOOTER 
+8)Menù piè pagina*/  
+
+#footer-bgblack{
+    margin-bottom: 0;
+    width: 100%;
+    min-height: 500px;
+    background-color: black;
+    color: white;
+}
+
+#margin-footer{
+    width: 80%;
+    margin: 0 auto; 
+}
+
+
+#contenitore-menu-footer{
+    display: flex;
+    margin: 0px auto;
+    padding: 60px 0;
+    position: relative;
+    
+}
+.col-menu-footer{
+    width: calc(100% / 5);
+  
+}
+
+
+footer h4{
+    padding-left: 40px;
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+footer ul{
+    line-height: 35px;
+}
+
+
+#footer-bgblack hr{
+    width: 120px;
+    margin-left: 40px;
+     
+}
+
+
+
+#chose-lenguage{
+    margin: 40px;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+
+#lingua{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+
+}
 
 
 
