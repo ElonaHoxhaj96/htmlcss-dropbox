@@ -81,7 +81,6 @@ ul{
     list-style-type: none;
 }
 
-
 .col ul{
   padding: 30px 40px;
   
@@ -119,12 +118,13 @@ li > span{
 }
 
 .spazio-archivio{
-    margin: 20px 0
+    margin: 20px 0;
 
 }
 
 .condivisione{
-    margin: 20px 0 50px 0;
+    margin-bottom: 50px;
+  
 
 }
 
@@ -134,7 +134,7 @@ li > button {
 
 }
 
-hr{
+.col ul > hr{
     margin: 50px 0;
     border-color: rgba(194, 194, 194, 0.308);
     width: 60px;
@@ -262,55 +262,117 @@ i{
     display: inline-grid;
     grid-template-columns: auto auto auto;
     width: 100%;
+    justify-content: stretch;
   }
 
-  .grid{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-  }
+.grid{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+}
 
-  .sinistra .destra{
-    width: calc((100% /2) - 2px);
-  }
+.sinistra .destra{
+width: calc((100% /2) - 2px);
+}
 
 
-  .grid-item {
+.grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 40px;
-    text-align: center;
     width: calc(100% /2);
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50%;
   
   }
 
 
-  .item-grande{
+.item-grande{
     width: 100%;
-    display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
   }
 
 
-  .grid-item > img{
+.grid-item > img{
     object-fit: contain;
-    width: 100%;
-    fill: white; 
+    width: 50%;
+    filter: invert(1);
   }
 
-  #designit{
+#designit{
     background-color: rgb(52, 182, 132);
     color: white;
     border: solid 5px rgb(71, 228, 168);
   }
 
 
-  #arizona{
-    background-color: brown;
+#arizona{
+    background-color: rgb(124, 31, 31);
   }
 
 
-  
+#uni-of-florida{
+    background-color: rgb(0, 174, 255);
+}
+
+
+#topps{
+    background-color: red;
+}
+
+
+
+/*Grid centrale*/
+
+.centrale{
+    min-height: 500px;
+    background-color: aliceblue;
+
+}
+
+
+.item-grande{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.item-grande > img{
+    filter: none;
+}
+
+.item-grande > hr{
+    width: 100px;
+    color: gray;
+    filter: blur(0.5px);
+
+}
+
+
+
+
+
+/*grid destra*/ 
+#bicycle{
+    background-color: orangered;
+}
+
+#hearst{
+    background-color:rgb(151 202 226);
+}
+
+
+#lonely{
+    background-color: darkblue;
+   
+
+}
+
+#clear-channel{
+    background-color: yellow;
+}
