@@ -4,8 +4,8 @@ main{
     margin: 100px auto;
     width: 70%;
   
-  
 }
+
 
 section{
     margin: 200px 0;
@@ -246,3 +246,71 @@ i{
 #nr-clienti{
     width: 40%;
 }
+
+
+
+/*IMPOSTAZIONI DELLA TERZA SEZIONE 
+5) Scroll immagini */
+
+#scroll-img{
+    width: 100%;
+
+}
+
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+  }
+
+  .grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .sinistra .destra{
+    width: calc((100% /2) - 2px);
+  }
+
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    text-align: center;
+    width: calc(100% /2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+
+  .item-grande{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .grid-item > img{
+    object-fit: contain;
+    width: 100%;
+    fill: white; 
+  }
+
+  #designit{
+    background-color: rgb(52, 182, 132);
+    color: white;
+    border: solid 5px rgb(71, 228, 168);
+  }
+
+
+  #arizona{
+    background-color: brown;
+  }
+
+
+  
