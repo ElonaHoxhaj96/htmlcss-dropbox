@@ -1,17 +1,17 @@
 /*IMPOSTAZIONE DEL MAIN*/
 
 main{
-    margin: 50px auto;
+    margin: 100px auto;
     width: 70%;
   
   
 }
 
 section{
+    margin: 200px 0;
     width: 100%;
-    margin: 150px 0;
     /*DEBUG*/
-    min-height: 1000px;
+  
    
 }
 
@@ -57,8 +57,7 @@ h2{
     align-items: stretch;
     justify-content: flex-start;
     text-wrap: wrap;
-    gap: 30px
-    ;
+    gap: 30px;
 }
 
 
@@ -206,4 +205,33 @@ i{
     flex-direction: column;
     justify-content: start;
     gap: 30px;
+}
+
+
+
+/*IMPOSTAZIONI DELLA TERZA SEZIONE 
+3) Operazioni esceguibili con Dropbox */
+
+#cont-operazioni-drx{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+.col-operaz-drx{
+    width: calc((100%/ 3) - 40px);
+    margin: 20px;
+
+}
+
+.col-operaz-drx > p{
+    margin-top: 20px;
+
+}
+
+.img-business{
+    width: 300px;
 }
