@@ -97,6 +97,8 @@ h3{
 li > span{
     display: block;
     margin-bottom: 20px;
+    padding-left: 20px;
+ 
 }
 
 .type{
@@ -125,6 +127,7 @@ li > span{
 
 .condivisione{
     margin-bottom: 50px;
+
   
 
 }
@@ -148,7 +151,7 @@ li > button {
 }
 
 
-i{ 
+.col ul li i{ 
     float: left;
     padding: 5px 5px 5px 0px;
 
