@@ -186,6 +186,15 @@ li > button {
     width: 70%;
 }
 
+#riga i{
+    float: left;
+    padding: 5px 5px 5px 0px;
+}
+
+#riga h3{
+    padding-left: 20px;
+}
+
 
 /*IMPOSTAZIONI DELLA SECONDA SEZIONE 
 2) Entra In contatto con partner Dropbox */
